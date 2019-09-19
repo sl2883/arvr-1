@@ -18,7 +18,7 @@ public class Elevator : MonoBehaviour
 
     //A float number to tweak the movement speed of the elevators in the editor
     [SerializeField]
-    float movementSmooth = 1.0f;
+    float movementSmooth = 5.0f;
     
 
     void Start()
@@ -41,10 +41,20 @@ public class Elevator : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //TODO Check if the collision object has a tag of "Ball", if so then set the boolean isColliding to true
+        if(collision.gameObject.CompareTag("Ball")) {
+            alreadyCollided = true;
+        }
     }
 
     void MoveUp(GameObject thisElevator)
     {
+        
         //TODO calculate a taget position for this very elevator, and move it to the target position
+
+        targetYPos = referenceTransform.position.y;
+
+        Vector3 oldPos = thisElevator.transform.position;
+        Vector3 newPos = new Vector3(thisElevator.transform.position.x, targetYPos, thisElevator.transform.position.z);
+        thisElevator.transform.position = Vector3.Lerp(oldPos, newPos, Time.deltaTime * movementSmooth);
     }
 }
