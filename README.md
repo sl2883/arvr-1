@@ -30,8 +30,8 @@ Filename: (a1-2019-part1-sl2883.mov)[https://drive.google.com/open?id=1Ei1hBNBcz
   
 **Screen Recording: Part 2**
 
-[Insert a link to Google Drive-hosted video]
-Filename: a1-2019-part2-\<your netID\>.*
+Filename: (a1-2019-part2-sl2883.mov) [https://drive.google.com/open?id=1s4SAHexsQJFvT9_NmqghG4tk6hd9gMox]
+
 
 **Screen Recording: Part 3**
 
