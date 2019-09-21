@@ -10,12 +10,12 @@ Read: [Assignment Instructions](https://docs.google.com/document/d/1La3bKARSi58K
 
 ### Student Name:
 
-\<Insert your full name\>
+\<Sunny Ladkani\>
 
 
 ### Student NetID:
 
-\<Insert your Cornell NetID\>
+\<sl2883\>
 
 <hr>
 
@@ -25,13 +25,13 @@ In addition to your code in this repository, please submit screen recordings sho
 
 **Screen Recording: Part 1**
 
-[Insert a link to Google Drive-hosted video]
-Filename: a1-2019-part1-\<your netID\>.*
+Filename: (a1-2019-part1-sl2883.mov)[https://drive.google.com/open?id=1Ei1hBNBczt0QxPxf-Hb5tIN0kJjicRQV]
+
   
 **Screen Recording: Part 2**
 
-[Insert a link to Google Drive-hosted video]
-Filename: a1-2019-part2-\<your netID\>.*
+Filename: (a1-2019-part2-sl2883.mov) [https://drive.google.com/open?id=1s4SAHexsQJFvT9_NmqghG4tk6hd9gMox]
+
 
 **Screen Recording: Part 3**
 
