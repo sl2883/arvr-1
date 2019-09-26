@@ -32,24 +32,32 @@ public class SelfRotate : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        //TODO Check if the collision object has a tag of "Ball", if so then set the boolean isColliding to true
-        /*
-        if (collision.gameObject.CompareTag("Ball"))
+        if (other.gameObject.CompareTag("PlayerCube")
+            || other.gameObject.CompareTag("PlatformD"))
         {
-            alreadyCollided = true;
+            gameObject.SetActive(false);
         }
-        */
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerCube")
+            || collision.gameObject.CompareTag("PlatformD"))
+        {
+            gameObject.SetActive(false);
+        }
+    }
+ 
+    
     void Rotate()
     {
         
         transform.Rotate(rotateTrophy * Time.deltaTime, rotateTrophy * Time.deltaTime, rotateTrophy * Time.deltaTime, Space.Self);
-
-        /*Quaternion targetRotation = Quaternion.AngleAxis(50, Vector3.back);
-
+        
+        /*
+        Quaternion targetRotation = Quaternion.AngleAxis(50, Vector3.back);
         var step = Time.deltaTime * rotateTrophy;
         transformS.rotation = Quaternion.RotateTowards(transformS.rotation, targetRotation, step);
         */

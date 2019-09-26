@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ball
   - Pickup
+  - PickUp
+  - PointB
+  - PlatformD
   layers:
   - Default
   - TransparentFX
