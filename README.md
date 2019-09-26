@@ -54,6 +54,9 @@ Filename: a1-2019-part5-\<your netID\>.*
 **Work Summary**
 
 [Write a short summary of your approach to this assignment and list the main challenges you faced]
+Approach ->
+Because I've no idea of unity platform and C# language, I started with reading about basic tutorial on unity and c#. My approach was to follow the assignment steps linearly. Whenever there was an issue, I spent most time understanding the flow if events and learning about the details of the unity framework. 
+
 Challenges ->
 1. Figuring out key unity functions and identifying which settings need to be on/off for different events
 2. Figuring out how to move platforms without the player falling
