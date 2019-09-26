@@ -39,9 +39,7 @@ Filename: (a1-2019-part3-sl2883.mov) [https://drive.google.com/open?id=1NzOAZLSE
 
 
 **Screen Recording: Part 4**
-
-[Insert a link to Google Drive-hosted video]
-Filename: a1-2019-part4-\<your netID\>.*
+Filename: (a1-2019-part4-sl2883.mov) [https://drive.google.com/open?id=1VB6K556njlapoklZkd5ad1lfyjKzRlLS]
 
 **Screen Recording: Part 5**
 
@@ -55,6 +53,11 @@ Filename: a1-2019-part5-\<your netID\>.*
 **Work Summary**
 
 [Write a short summary of your approach to this assignment and list the main challenges you faced]
+Challenges ->
+1. Figuring out key unity functions and identifying which settings need to be on/off for different events
+2. Figuring out how to move platforms without the player falling
+3. The script wasn't refreshed at times, stuggled with that.
+4. Overall learning of C# and unity interface
 
 **Final Five**
 
