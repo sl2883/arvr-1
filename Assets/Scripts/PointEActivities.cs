@@ -15,8 +15,6 @@ public class PointEActivities : MonoBehaviour
 
     private Vector3 newScale;
 
-    private float rotationSmooth = 10.0f;
-
     float movementSmooth = 10.0f;
 
     // Start is called before the first frame update

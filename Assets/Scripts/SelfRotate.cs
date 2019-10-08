@@ -16,7 +16,7 @@ public class SelfRotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        alreadyCollided = false;
     }
 
     // Update is called once per frame
@@ -34,7 +34,7 @@ public class SelfRotate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PlayerCube")
+        if (other.gameObject.CompareTag("Player")
             || other.gameObject.CompareTag("PlatformD"))
         {
             gameObject.SetActive(false);
@@ -43,7 +43,7 @@ public class SelfRotate : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("PlayerCube")
+        if (collision.gameObject.CompareTag("Player")
             || collision.gameObject.CompareTag("PlatformD"))
         {
             gameObject.SetActive(false);

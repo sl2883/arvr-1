@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class TiltTrophyPlatform : MonoBehaviour
 {
-    public GameObject slopeAxis;
-
     //A bool to show if the elevator switch has been collided with the ball
     bool alreadyCollided;
 
@@ -16,7 +14,7 @@ public class TiltTrophyPlatform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        alreadyCollided = false;
     }
 
     // Update is called once per frame
@@ -41,7 +39,7 @@ public class TiltTrophyPlatform : MonoBehaviour
 
     void Rotate()
     {
-        Transform transformS = slopeAxis.gameObject.transform;
+        Transform transformS = gameObject.transform;
         Quaternion targetRotation = Quaternion.AngleAxis(13, Vector3.left);
 
         var step = Time.deltaTime * rotationSmooth;
