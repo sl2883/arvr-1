@@ -44,8 +44,7 @@ Filename: (a1-2019-part4-sl2883.mov) [https://drive.google.com/open?id=1VB6K556n
 
 **Screen Recording: Part 5**
 
-[Insert a link to Google Drive-hosted video]
-Filename: a1-2019-part5-\<your netID\>.*
+Filename: (a1-2019-part5-sl2883.mov) [https://drive.google.com/open?id=1TbBb1YP8naSBq5ZXDQXOV-8Ju_4oPXSF]
 
 <hr>
 
@@ -66,3 +65,4 @@ Challenges ->
 **Final Five**
 
 [If you implemented the Final Five part, tell us about your solution, what you did and why]
+The final part was about helping the user to play the game. As I was building the game, the biggest challenge I faced was to look at the different views of the game. Because the game is about moving objects from one place to the other, it's important to understand where in 3D are they positioned. To solve this, and ensure that the user knows how to play the game at all time, I added a "Hint" object in the game space. Clicking on the Hint lets user learn the basics of the game. The hints also tell user that by using "X, Y, Z & N" keyboard shortcuts, the user can switch between the different cameras available to view and play the game. The hint goes aways when the user clicks on the "Hint" object again.
